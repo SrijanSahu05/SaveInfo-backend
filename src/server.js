@@ -18,7 +18,8 @@ const PORT = process.env.PORT || 3000;
 //Middlewares
 app.use(
     cors({
-        origin: "http://localhost:5173",
+        //origin: "http://localhost:5173",
+        origin: "https://save-info-frontend.vercel.app/",
         credentials: true
     })
 )
